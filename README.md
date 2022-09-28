@@ -7,10 +7,10 @@
 ### Paths:
 
 -   Get users: "/users"
--   Get user by id "/users/:id"
--   Add user "/add"
--   Delete user "/delete/:id"
--   Update user "/update/:id"
+-   Get user by id: "/users/:id"
+-   Add user: "/add"
+-   Delete user: "/delete/:id"
+-   Update user: "/update/:id"
 
 ### Start server
 
