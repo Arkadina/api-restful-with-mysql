@@ -1,10 +1,10 @@
 # Api rest ful with mysql
 
-### Libraries:
+### Libraries
 
 > express, mysql, nodemon, dotenv
 
-### Paths:
+### Paths
 
 -   Get users: "/users"
 -   Get user by id: "/users/:id"
