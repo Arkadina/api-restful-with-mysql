@@ -12,7 +12,7 @@
 -   Delete user: "/delete/:id"
 -   Update user: "/update/:id"
 
-### Myslq
+### MySQL
 
 > CREATE DATABASE _db_ </br>
 > CREATE TABLE users (id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY, email VARCHAR(25), password VARCHAR(30))
