@@ -1,4 +1,4 @@
-# Api rest ful with mysql
+# API RESTful with mysql
 
 ### Libraries
 
