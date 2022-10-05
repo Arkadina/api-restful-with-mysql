@@ -2,7 +2,7 @@
 
 ### Libraries
 
-> express, mysql, nodemon, dotenv
+express, mysql, nodemon & dotenv.
 
 ### Paths
 
@@ -14,17 +14,21 @@
 
 ### MySQL
 
-> CREATE DATABASE _db_ </br>
-> CREATE TABLE users (id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY, email VARCHAR(25), password VARCHAR(30))
+You need to create the database and detail how the table will work before you start the server, so execute this in your mysql painel:
 
-### Env
+> CREATE DATABASE _db_; </br>
+> CREATE TABLE users (id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY, email VARCHAR(25), password VARCHAR(30));
 
-> -   PORT=3000
-> -   HOST="localhost"
-> -   USER="root"
-> -   PASSWORD="root"
-> -   DATABASE="db"
+### ENV
+
+Make sure to change your settings before running the server:
+
+-   PORT=3000
+-   HOST="localhost"
+-   USER="root"
+-   PASSWORD="root"
+-   DATABASE="db"
 
 ### Start server
 
-> npm run nodemon
+Execute npm run nodemon.
