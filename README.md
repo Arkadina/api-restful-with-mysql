@@ -1,6 +1,6 @@
 # API RESTful with mysql
 
-### Fundamentals
+## Fundamentals
 
 -   create, read, update & delete.
 
@@ -34,6 +34,8 @@ Make sure to change your settings before running the server:
 `DATABASE="db"`
 
 ## Start server
+
+Execute:
 
 ```bash
   npm install
