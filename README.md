@@ -4,11 +4,11 @@
 
 -   create, read, update & delete.
 
-### Libraries
+## Libraries
 
 express, mysql, nodemon & dotenv.
 
-### Paths
+## Paths
 
 -   Get users: "/users"
 -   Get user by id: "/users/:id"
@@ -16,23 +16,29 @@ express, mysql, nodemon & dotenv.
 -   Delete user: "/delete/:id"
 -   Update user: "/update/:id"
 
-### MySQL
+## MySQL
 
 You need to create the database and detail how the table will work before you start the server, so execute this in your mysql painel:
 
 CREATE DATABASE _db_; </br>
 CREATE TABLE users (id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY, email VARCHAR(25), password VARCHAR(30));
 
-### ENV
+## ENV
 
 Make sure to change your settings before running the server:
 
--   PORT=3000
--   HOST="localhost"
--   USER="root"
--   PASSWORD="root"
--   DATABASE="db"
+`PORT=3000`
+`HOST="localhost"`
+`USER="root"`
+`PASSWORD="root"`
+`DATABASE="db"`
 
-### Start server
+## Start server
 
-Execute npm run nodemon.
+```bash
+  npm install
+```
+
+```bash
+  npm run start
+```
